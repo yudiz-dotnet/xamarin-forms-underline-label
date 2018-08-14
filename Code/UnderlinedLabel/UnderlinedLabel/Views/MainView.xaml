@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Controls="clr-namespace:UnderlinedLabel.Controls"
+             x:Class="UnderlinedLabel.Views.MainView"
+             Title="Underline Label">
+    <ContentPage.Content>
+        <StackLayout>
+            <Controls:Label HorizontalOptions="Center" VerticalOptions="Center" Text="{Binding LabelWithoutUnderline}" IsUnderlined="False" />
+            <Controls:Label HorizontalOptions="Center" VerticalOptions="Center" Text="{Binding LabelWithUnderline}" IsUnderlined="True" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

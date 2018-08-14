@@ -1,0 +1,7 @@
+Code/.vs/
+Code/UnderlinedLabel/UnderlinedLabel.Android/bin/
+Code/UnderlinedLabel/UnderlinedLabel.Android/obj/
+*.dll
+Code/UnderlinedLabel/UnderlinedLabel.iOS/bin/
+Code/UnderlinedLabel/UnderlinedLabel.iOS/obj/
+Code/UnderlinedLabel/UnderlinedLabel/obj/
